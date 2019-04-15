@@ -1,0 +1,1 @@
+This project is only proctice-purpose to gain more experience about REST API and the functionality of it and how to generate a well-working on. It is created along a course which is for the purpose mentioned above.
