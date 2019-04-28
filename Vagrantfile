@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
 # Every Vagrant development environment requires a box. You can search for
 # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "ubuntu/xenial64"
-  config.vm.network "forwarded_port", host_ip: "192.168.1.7", guest: 7070, host: 7070
+  config.vm.network "forwarded_port", host_ip: "192.168.1.9", guest: 7070, host: 7070
   config.vm.provision "shell", inline: <<-SHELL
     # Update and upgrade the server packages.
     sudo apt-get update
